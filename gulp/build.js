@@ -95,3 +95,11 @@ gulp.task('clean', function () {
 });
 
 gulp.task('build', ['html', 'fonts', 'other']);
+
+// GH PAGES
+var ghPages = require('gulp-gh-pages');
+
+gulp.task('gh', function() {
+  return gulp.src('./dist/**/*')
+    .pipe(ghPages());
+});

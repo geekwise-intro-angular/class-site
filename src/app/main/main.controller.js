@@ -14,6 +14,17 @@
     vm.creationDate = 1459661127236;
     vm.showToastr = showToastr;
 
+    vm.weekList = [
+      {week:1, description:"Quick overview of Angular, MVC/MV*, and initial your first Angular app"},
+      {week:2, description:"TBA"},
+      {week:3, description:"TBA"},
+      {week:4, description:"TBA"},
+      {week:5, description:"TBA"},
+      {week:6, description:"TBA"},
+
+    ]
+
+
     activate();
 
     function activate() {

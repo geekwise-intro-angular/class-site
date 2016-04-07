@@ -20,7 +20,7 @@
       {week:3, description:"TBA"},
       {week:4, description:"TBA"},
       {week:5, description:"TBA"},
-      {week:6, description:"TBA"},
+      {week:6, description:"TBA"}
 
     ]
 

@@ -23,8 +23,22 @@
     <!--[if lt IE 10]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
+  <div class="container">
 
-    <div ui-view></div>
+    <div>
+      <acme-navbar creation-date="main.creationDate"></acme-navbar>
+    </div>
+
+    <div class="jumbotron text-center">
+      <h1>Intro to Angular</h1>
+      <p class="lead">
+        <img src="assets/images/angular.png" alt="I'm Yeoman"><br>
+        Geekwise Academy, Fresno, California
+      </p>
+    </div>
+<div ui-view></div>
+
+</div>
 
     <!-- build:js(src) scripts/vendor.js -->
     <!-- bower:js -->
